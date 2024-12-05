@@ -251,7 +251,7 @@ else:
         cv2.imwrite("full_frame_live.png", resized_frame)
 
         # Load the image to process
-        image_path = "face1long.jpg"  # Replace with your image path
+        image_path = "full_frame_live.png"  # Replace with your image path
         frame = cv2.imread(image_path)
         if frame is not None:
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
